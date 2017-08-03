@@ -1,3 +1,70 @@
+main, section, article, aside, footer, header, nav, hgroup {
+  display:block;
+}
+
 body {
     background-color: antiquewhite;
+}
+#primary-content {
+    clear: both;
+}
+main {
+    padding: 0 2rem;
+    background-color: burlywood;
+    float: left;
+    width: 65%;
+}
+
+aside {
+    background-color: yellowgreen;
+    float: left;
+    width: 25%;
+}
+
+header {
+    background-color: lightsalmon;
+    height: 75px;
+}
+
+header nav div {
+    /* background-color: red; */
+    width: 25%;
+    float: left;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    float: left;
+    margin-right: 2rem;
+    padding: 1rem;
+    background-color: darkkhaki;
+}
+
+header nav ul li:hover {
+    background-color: peachpuff;
+}
+header nav div img{
+    max-width: 100%;
+    height: 70px;
+    margin-right: 2rem;
+}
+
+article {
+    border: 2px solid darkblue;
+    margin-bottom: 2rem;
+    margin-right: .5rem;
+    padding: 0 .75rem;
+    width: 35%;
+
+}
+
+.highlighter {
+    background-color: yellow;
+}
+
+footer{
+    clear: both;
 }
